@@ -33,7 +33,26 @@ def bouncing_ball(h, bounce, window):
     
     return hit
 
-print(bouncing_ball)
+def get_count(sentence):
+    check = "aeiou"
+    count = 0
+    for i in sentence:
+        for k in check:
+            if (i==k):
+                count=count + 1  
+                break
+    return count
+
+
+def even_or_odd(number):
+    if (number % 2):
+        return "Odd"
+    else :
+        return "Even"
+    
+
+print(even_or_odd(3))
+
 
 
     
