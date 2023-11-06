@@ -1,4 +1,4 @@
-# 实验三 Python列表
+# 实验四 Python字典和while循环
 
 班级： 21计科2班
 
